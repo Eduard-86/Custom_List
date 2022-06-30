@@ -40,6 +40,22 @@ T& MyList<T>::operator[](int index) const
 }
 
 template <class T>
+bool MyList<T>::operator==(const T& value) const
+{
+	
+}
+
+template <class T>
+bool MyList<T>::operator>(const T& value) const
+{
+}
+
+template <class T>
+bool MyList<T>::operator<(const T& value) const
+{
+}
+
+template <class T>
 void MyList<T>::insert(T data, int index)
 {
 	if (size > index)
@@ -64,6 +80,12 @@ void MyList<T>::insert(T data, int index)
 		throw std::exception("Method Insert, index > size");
 	}
 
+}
+
+template <class T>
+void MyList<T>::insert(T data)
+{
+	PushFront(data);
 }
 
 
