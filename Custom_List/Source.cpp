@@ -1,12 +1,8 @@
 #include <iostream>
-#include <list>
-#include <vector>
-#include <algorithm>
-#include <set>
-
 #include "List.h"
 
-
+// jalko
+/*
 class FSM
 {
 public:
@@ -74,12 +70,49 @@ protected:
 
     Key kek = Key::state1;
 };
+*/
 
-using namespace std;
+template <class T>
+class hhh
+{
+public:
+	
+    
+    T fuu(T fff);
+};
+
+template <class T>
+T hhh<T>::fuu(T fff)
+{
+    return fff;
+}
 
 int main()
 {
+    using namespace std;
 
 
+	
+    MyList<int> list(999);
+    list.PushFront(888);
+    list.PushFront(878);
+    list.PushFront(868);
+
+	
+    list.PushBack(757);
+    list.PushBack(747);
+    list.PushBack(737);
+
+    list.insert(123, 0);
+
+	
+	for(int i = 0; i < list.GetSize(); ++i)
+	{
+        cout << list[i] << endl;
+	}
+
+    list.Clear();
+	
+	
     return 0;
 }

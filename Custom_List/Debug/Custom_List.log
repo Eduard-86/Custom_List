@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Projects\Custom_List\Custom_List\List.h(257): warning C4172: возвращение адреса локальной или временной переменной : tempT
+D:\Projects\Custom_List\Custom_List\List.h(283): warning C4172: возвращение адреса локальной или временной переменной : tempT
+  Custom_List.vcxproj -> D:\Projects\Custom_List\Debug\Custom_List.exe
